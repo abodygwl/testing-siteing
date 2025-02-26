@@ -1,0 +1,88 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.nav-link {
+    color: white !important;
+ }
+ #anime{
+    padding-top: 80px;
+ }
+#About{
+    padding-top: 30px;
+}
+
+.bg-primary{
+    /* background-color: rgb(3, 52, 52) !important; */
+    /* background-color: rgb(234, 175, 133) !important; */
+    background-color: rgb(208, 139, 0) !important;
+    
+}
+
+.linkMenu a:hover{
+    /* background-color: blue !important; */
+    background-color: rgb(130, 59, 27) !important;
+    /* background-color: rgb(31, 14, 7) !important; */
+}
+.bk-img{
+    background: url('./210867-1920x1132-desktop-hd-attack-on-titan-the-final-season-wallpaper-photo.jpg') no-repeat center center;
+    background-size: cover;
+    height: 1000px; /* Adjust height as needed */
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    
+}
+.bk-img2{
+    /* attack-on-titan-3840x2160-10433.jpg */
+    background: url('./wallpaperflare.com_wallpaper.jpg') no-repeat center center;
+    background-size: cover;
+    /* height: 1000px;   */
+    height: 900px; 
+    color: white;
+    
+
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center; */
+
+}
+.Aboutpp{
+    /* font-size: 23px; */
+    font-weight: bold;
+    font-weight: 700;
+    /* font-size: 13px; */
+    /* color: rgb(208, 139, 0); */
+    color: gold !important;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+}
+@media (max-width: 375px) {  /* iPhone SE */
+    .aboutP {
+        font-size: 12px !important;
+        
+    }
+}
+.afect_card{
+    transition: transform 0.3s ease-in-out; 
+}
+.afect_card:hover{
+     
+    transform: scale(1.1); 
+}
+
+
+#typewriter {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+    font-weight: 700;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.fiximg{
+    width: 500px;  /* Set a fixed width */
+    height: 500px; /* Set a fixed height */
+    object-fit: cover;
+}
